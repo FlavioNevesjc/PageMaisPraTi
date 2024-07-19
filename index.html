@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regiane Paiva</title>
+    <link rel="stylesheet" href="assest/css/style.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <nav>
+                <div>
+                    <div>
+                        <img class="logoImg" src="assest/img/logo.png" alt="logo">
+                    </div>
+                    <div>
+                        <h1 class="logoTexto">Regiane Paiva</h1>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>                
+            </nav>
+        </header>
+        <main>
+            <section id="sobre" class="sobre">
+                <h2 class="titulos">Sobre</h2>
+                <div class="ladoA">
+                    <p>É uma profissional registrada e com CRP ativo, possui mais de 15 anos de atuação na área em Terapias com Crianças, adolecentes e adultos.<br>
+                       Seu consultorio se localizado na zona norte da cidade de São José dos Campos - SP para realização de atendimentos presenciais ou se preferir, atendimentos remoto (on-line).</p>
+                </div>
+                <div class="ladoB">
+                    <img class="img" src="assest/img/crianca-terapia1.jpg" alt="Criança Terapia">
+                </div>
+            </section>
+            <section id="servicos" class="servicos">
+                <h2 class="titulos">Serviços Realizados</h2>
+                <div class="ladoA">
+                    <img class="img" src="assest/img/adulto-terapia2.jpg" alt="Criança Terapia">
+                </div>
+                <div class="ladoB">
+                    <ol>
+                        <li>Atendimentos on-line e presencial</li>
+                        <li>Parceria com convênio médico (pelo sistema de reembolso)</li>
+                        <li>Atendimento individual ou Familia</li>
+                    </ol>
+                </div>
+            </section>
+            <section id="contato">
+                <h2 class="titulos">Contato</h2>
+                <div class="contato">
+                    <p>Maiores informações, favor entrar em contato no formulario abaixo:</p>
+                    <form action="mailto:regiane.paiva@ymail.com" method="POST" enctype="text/plain">
+                        <fieldset>
+                            <legend>Entre em contato</legend>
+                            <label for="">Nome:     <input type="text" required></label><br><br>
+                            <label for="">e-mail:   <input type="email" required></label><br><br>
+                            <label for="">Mensagem: <textarea name="mensagem" rows="5" required></textarea></label><br><br>
+                            <input class="botao" type="submit" value="Enviar">
+                            <input class="botao" type="reset" value="Limpar">
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+            Site produzido pelo <a href="mailto:flaviosn@gmail.com">Flávio Neves</a>
+    </footer>
+</body>
+</html>
